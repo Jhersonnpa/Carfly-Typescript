@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Estilos Principales */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+#page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: #44556f;
+    border: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-brand:hover {
+    color: #9d9d9d !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color:#44556f;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider, .navbar-inverse .navbar-toggle {
+    border-color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #9d9d9d;
+}
+
+#brand-logo {
+    height: 50px;
+}
+
+.dropdown-menu {
+    background-color: #44556f;
+    border-radius: 5px;
+    width: 180px;
+}
+
+
+.dropdown-menu label {
+    color: #fff;
+}
+
+.dropdown-menu input {
+    width: 100%;
+    margin: 5px auto;
+}
+
+.dropdown-menu > div {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #333;
+    font-weight: 600;
+    margin: auto;
+}
+
+.dropdown-menu > div > button {
+    width: 45%;
+    background-color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.dropdown-menu > div > button:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+.btn-primary {
+    background-color: #44556f;
+}
+
+.btn-primary:hover {
+    background-color: #4c5f7c;
+}
+
+.form-user {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* Imagenes Fondo */
+
+.portrait-bg {
+    width: 100%;
+}
+
+/* Coches */
+#coche {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container .jumbotron {
+    padding: 5px 10px 20px 10px;
+    background-color: #44556f;
+}
+
+.jumbotron > * {
+    color: #fff;
+}
+
+.jumbotron > button{
+    background-color:#9d9d9d;
+    color: #fff;
+}
+
+.jumbotron > button > a{
+    background-color:#9d9d9d;
+    color: #fff;
+}
+/* Footer */
+#footer {
+    color: #fff;
+    background-color: #44556f;
+    padding: 20px 10px 15px 10px;
+}
+
+/* ==================== Admin.html ==================== */
+.padding-admin {
+    padding: 80px 0;
+}
+
+.disponible {
+    color: green;
+}
+
+.reservado {
+    color: yellow;
+}
+
+.vendido {
+    color: red;
+}
